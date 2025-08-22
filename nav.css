@@ -1,0 +1,408 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Nata+Sans:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@media only screen and (max-width: 360px) {
+    body {
+        background-color: lightcyan;
+    }
+
+    div .container {
+        grid: column;
+    }
+}
+
+body {
+    /* width: 80vw; */
+    /* background-color: lightcyan; */
+}
+
+nav {
+    background-color: white;
+    display: flex;
+    justify-content: start;
+    gap: 3px;
+    /* position: sticky;
+    top: 0px; */
+    align-items: center;
+    height: 90px;
+    width: 100vw;
+    /* padding: 0px 50px; */
+}
+
+nav>select {
+    border: 2px solid white;
+    margin: 13px;
+    color: #222;
+    ;
+    font-family: "Segoe UI";
+    font-size: 15px;
+    padding-top: 20px;
+    cursor: pointer;
+}
+
+
+
+.logo>img {
+    width: 168px;
+    height: 52px;
+    margin: 0px 210px 0px 0px;
+    padding-top: 7px;
+    position: relative;
+    left: 40px;
+}
+
+.logo1>img {
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    top: 18px;
+    left: 412px;
+    cursor: pointer;
+}
+
+div {
+    padding-top: 14px;
+}
+
+div>button {
+    margin: 0px 0px 0px 73px;
+    padding: 8px 12px 7px 15px;
+    font-size: 15px;
+    font-weight: 600;
+    border: 2px solid rgba(34, 34, 34, 0.884);
+    background-color: white;
+    border-radius: 3px;
+    color: rgba(34, 34, 34, 0.884);
+    cursor: pointer;
+}
+
+.eng {
+    border: 0px;
+    font-weight: 400;
+    font-size: 16px;
+    color: rgb(34, 34, 34);
+    font-family: "Poppins", sans-serif;
+    cursor: pointer;
+}
+
+.last {
+    position: relative;
+    margin: 0px 0px 0px -48px;
+}
+
+.last>img {
+    position: relative;
+    left: 82px;
+    width: 20px;
+    top: 3px;
+}
+.container {
+    /* border: 2px solid black; */
+    display: grid;
+    justify-content: center;
+    gap: 10px;
+    grid-template-columns: 239px 241px 339px;
+    row-gap: 40px;
+    column-gap: 150px;
+    margin: 30px;
+    /* display: flex; */
+}
+
+.item {
+    width: 350px;
+    height: 230px;
+    /* border: 2px solid ; */
+    background-color: #bdc2c728;
+}
+
+.item1 div {
+    font-weight: 800;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 24px;
+    line-height: 70px
+}
+
+
+
+.button1 a {
+
+    font-size: 13px;
+    padding: 11px 32px;
+    margin: 38px 0px 0px 0px;
+
+    border-radius: 5px;
+    font-weight: bold;
+    text-decoration: none;
+    border: 2px solid white;
+    background-color: rgb(53, 173, 221);
+    color: white;
+}
+
+.button1 :hover {
+    background-color: aqua;
+    color: white;
+}
+
+
+div .button1 .green {
+    background-color: rgb(64, 190, 64);
+}
+
+div .button1 .green:hover {
+    background-color: aqua;
+}
+
+.item2 div {
+    font-weight: 800;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 24px;
+    line-height: 70px
+}
+
+
+
+
+div .button1 .green {
+    background-color: rgb(64, 190, 64);
+}
+
+.item3 div {
+    font-weight: 800;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 24px;
+    line-height: 70px
+}
+
+
+
+
+
+div .button1 .green {
+    background-color: rgb(64, 190, 64);
+}
+
+.item4 div {
+    font-weight: 800;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 24px;
+    line-height: 70px
+}
+
+
+
+
+div .button1 .green {
+    background-color: rgb(64, 190, 64);
+}
+
+.item5 div {
+    font-weight: 800;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 24px;
+    line-height: 70px
+}
+
+
+
+
+
+div .button1 .green {
+    background-color: rgb(64, 190, 64);
+}
+
+.item6 div {
+    font-weight: 800;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 24px;
+    line-height: 70px
+}
+
+
+
+
+div .button1 .green {
+    background-color: rgb(64, 190, 64);
+}
+
+.item7 div {
+    font-weight: 800;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 24px;
+    line-height: 70px
+}
+
+
+
+
+div .button1 .green {
+    background-color: rgb(64, 190, 64);
+}
+
+.item8 div {
+    font-weight: 800;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 24px;
+    line-height: 70px
+}
+
+
+
+
+
+div .button1 .green {
+    background-color: rgb(64, 190, 64);
+}
+
+.item9 div {
+    font-weight: 800;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 24px;
+    line-height: 70px
+}
+
+
+
+
+
+div .button1 .green {
+    background-color: rgb(64, 190, 64);
+    color: white;
+}
+
+.item10 div {
+    font-weight: 800;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 24px;
+    line-height: 70px
+}
+
+main {
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+}
+
+main> :nth-child(1) {
+    font-size: 60px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(34, 33, 33);
+    line-height: 90px;
+}
+
+main> :nth-child(2) {
+    font-size: 30px;
+    margin-top: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(54, 52, 52);
+}
+
+main> :nth-child(3) {
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(54, 52, 52)
+}
+
+main>button {
+    padding: 20px;
+    font-size: 15px;
+    font-weight: 800;
+    background-color: #00b6d1;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin: 40px 0px 0px 0px;
+
+}
+
+main>button:hover {
+    background-color: #00b5d1c0;
+
+}
+
+main>span>img {
+    cursor: pointer;
+}
+
+.first {
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-left: 17rem;
+    color: rgb(54, 52, 52)
+}
+
+.second {
+    color: rgb(54, 52, 52)
+}
+section{
+    background-color:#222;
+    height: 800px;
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+section p{
+    color:white ;
+  
+    
+    
+    text-align: center;
+}
+.box1{
+       width: 360px;
+    height: 270px;
+    background-color: white;
+   position: absolute;
+   left: 55rem;
+   top: 5rem;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+.box1>span{
+    color:aqua;
+    font-size: 2rem;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.box1 label{
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     color: rgb(44, 43, 43);
+}
+.box1 :nth-child(3){
+    padding: 1rem 3rem 1rem 3rem ;
+    margin-top: -25px;
+border: 2px solid rgba(143, 134, 134, 0.774);
+}
+.box1 :nth-child(4){
+   padding: 1rem 7rem 1rem 6rem;
+    margin:0px 0px 0px  4px;
+    background-color: aqua;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+}
